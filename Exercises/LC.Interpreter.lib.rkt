@@ -197,13 +197,13 @@
 (define (closure a-λ-term an-environment)
   `(closure: ,a-λ-term ,an-environment))
 
-(Define (closure-environment `(,closure ,a-λ-term ,an-environment))
+(Define (closure-environment `(closure: ,a-λ-term ,an-environment))
         an-environment)
 
-(Define (closure-body `(,closure (λ (,_) ,body) ,an-environment))
+(Define (closure-body `(closure: (λ (,_) ,body) ,an-environment))
         body) 
 
-(Define (closure-parameter `(,closure (λ (,parameter) ,_) ,an-environment))
+(Define (closure-parameter `(closure: (λ (,parameter) ,_) ,an-environment))
         parameter)
 
 (define (binding an-environment variable)
