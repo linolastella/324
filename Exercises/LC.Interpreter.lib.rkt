@@ -118,7 +118,9 @@
   (define a-λ-term '(λ (x) (y x)))
 
   ; ★ An environment [recall CSC108] is: a list of variables and their values in a scope
-  ; ★ A variable shadows another variable [recall CSC207] iff: it is already defined in the same environment
+  ; ★ A variable shadows another variable [recall CSC207] iff: it has the same name, they're both in an environment where the shadowing variable
+  ;      is more local [and thus will be used as the value of variables with that name
+  ;      when that environment is the current one]
 
   ; Example environment.
   ; The first ‘y’ represents a variable named “y” with value 3, shadowing
