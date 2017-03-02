@@ -107,6 +107,6 @@
       (if (symbol? t)
           (binding env t)
           (eva (closure-body (eva (function t) env))
-               (extend env
+               (extend (closure-environment (eva (function t) env))
                        (closure-parameter (eva (function t) env))
                        (eva (argument t) env))))))
