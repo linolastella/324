@@ -2,7 +2,8 @@
 Principles of Programming Languages class I took, Winter 2017
 
 Some Programming Languages paradigms were covered in this class. In particular, we practiced stateless programming.
-3 Major assignments and 6 exercises.
+3 major assignments and 6 exercises.
+
 First assignment -> practice with higher-order functions and anonymous functions (lambda). It's a maze generator and auto-solver, 
                     it requires DrRacket to read the file because it contains images.
                     
