@@ -8,6 +8,7 @@ First assignment -> practice with higher-order functions and anonymous functions
                     it requires DrRacket to read the file because it contains images.
                     
 Second assignment -> practice with pattern matching and memory model. Interpreter for a subset of Racket.
+
 Third assignment -> practice with static types. A type-inferer.
 
 Exercises are shorter than the assignments and they were often a preparation.
