@@ -14,3 +14,5 @@ Third assignment -> practice with static types. A type-inferer.
 Exercises are shorter than the assignments and they were often a preparation.
 
 I worked with my friend Kyra Stephen in this course :)
+
+Instructor: [Gary Baumgartner](http://www.cs.toronto.edu/~gfb/)
